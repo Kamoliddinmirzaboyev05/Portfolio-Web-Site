@@ -38,6 +38,11 @@ nav .container {
   gap: 50px;
   list-style: none;
 }
+.bar {
+  font-size: 28px;
+  color: white;
+  display: none;
+}
 .links a {
   text-decoration: none;
   color: #959595;
@@ -596,13 +601,102 @@ footer .heroSocials {
   font-size: 18px;
   padding-top: 20px;
 }
-.myData p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+.myData p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
+  nav .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .bar {
+    display: block;
+  }
+  .links {
+    display: none;
+  }
+  .contactBtn {
+    padding: 10px 12px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  /* Styling hero */
+  .hero .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: start;
+    padding: 50px 20px;
+  }
+  .heroText {
+    text-align: center;
+  }
+  .heroText h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #959595;
+  }
+  .heroText h2 span.job {
+    padding-top: 12px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 800;
     
-}
+  }
+  .heroText h2 span.name {
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 800;
+    
+  }
+  .heroSocials {
+    justify-content: center;
+    padding: 30px 0;
+  }
+  .heroBtns {
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  .heroBtns .hireMeBtn {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 20px;
+  }
+  .heroBtns .download {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 20px;
+  }
+  .experienceBoxes {
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+  .experience:first-child {
+    border-right: 1px solid #959595;
+    padding-right: 30px;
+  }
+  .experience:last-child {
+    border-left: 1px solid #959595;
+    padding-left: 30px;
+  }
+  .experience {
+    padding: 6px 0;
+  }
+  .experience h2 {
+    color: #fd6f00;
+    font-weight: 600;
+    padding-bottom: 6px;
+    font-size: 16px;
+  }
+  .experience p {
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+  }
+} /* close media*/
