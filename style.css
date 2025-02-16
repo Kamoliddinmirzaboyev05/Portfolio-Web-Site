@@ -647,13 +647,11 @@ footer .heroSocials {
     font-size: 36px;
     line-height: 40px;
     font-weight: 800;
-    
   }
   .heroText h2 span.name {
     font-size: 20px;
     line-height: 35px;
     font-weight: 800;
-    
   }
   .heroSocials {
     justify-content: center;
@@ -698,5 +696,70 @@ footer .heroSocials {
     font-size: 14px;
     color: white;
     font-weight: 600;
+  }
+
+  /* Styling skills */
+
+  .skillsBlock {
+    width: 100%;
+  }
+
+  /* Styling services */
+  .serviceBox {
+    width: 350px;
+  }
+
+  /* Styling  portfolio */
+  .projects .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .portfolioFilter {
+    display: none;
+  }
+
+  /* Styling about */
+  .about .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .aboutBlock {
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+  .aboutText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* Styling contact */
+  footer{
+    padding-top: 0;
+  }
+  .contact form {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .col {
+    width: 100%;
+  }
+  .col input,
+  .col select,
+  .col textarea {
+    width: 100%;
+  }
+
+  /* styling footer  */
+
+  .myData {
+    flex-wrap: wrap;
+  
+    gap: 30px;
+    
   }
 } /* close media*/
