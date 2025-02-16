@@ -1,0 +1,47 @@
+Kamoliddin Mirzaboyev
+Frontend Developer
+
+Fergana
++998889563848
+
+Passionate and detail-oriented Frontend Developer with a strong foundation in HTML, CSS, JavaScript, and React.js. Skilled in building dynamic and responsive web applications, integrating APIs, and utilizing modern frontend libraries and frameworks. Experienced in GSAP animations and working with local storage and RESTful APIs to enhance user experience.
+Currently developing MyCareer, a web platform for freelancers and companies, showcasing expertise in UI/UX design and interactive web development. Enthusiastic about data structures, algorithms, and cybersecurity, with a solid understanding of database management (SQL).
+Committed to continuous learning and self-improvement, actively exploring JavaScript, React, and backend integration. Seeking opportunities to contribute innovative solutions and deliver high-quality, scalable web applications.
+
+PERSONAL INFORMATION
+  Address: , Fergana, 
+  Nationality: 
+  Driving License: 
+  Hobbies: 
+
+SOCIAL PROFILES
+  * Portfolio: https://myportfolio-mkm.netlify.app/
+  * Telegram: https://t.me/Kamoliddin_Mirzaboyev
+
+SKILLS
+  ★★★☆☆ Microsoft Office
+  ★★★★☆ HTML &amp; CSS
+  ★★★★☆ HTML5
+  ★★★★☆ CSS
+  ★★☆☆☆ MySQL
+  ★★★★☆ C++
+  ★★★★☆ Git
+  ★★★★☆ JavaScript
+  ★★★★☆ Tailwind CSS
+
+WORK EXPERIENCE
+  * 2024 – 2025
+    Asistant Teacher at Codial, Fergana
+      Passionate and detail-oriented Frontend Developer with a strong foundation in HTML, CSS, JavaScript, and React.js. Skilled in building dynamic and responsive web applications, integrating APIs, and utilizing modern frontend libraries and frameworks. Experienced in GSAP animations and working with local storage and RESTful APIs to enhance user experience.
+Currently developing MyCareer, a web platform for freelancers and companies, showcasing expertise in UI/UX design and interactive web development. Enthusiastic about data structures, algorithms, and cybersecurity, with a solid understanding of database management (SQL).
+Committed to continuous learning and self-improvement, actively exploring JavaScript, React, and backend integration. Seeking opportunities to contribute innovative solutions and deliver high-quality, scalable web applications.
+
+
+EDUCATION
+  * 2023 – Present
+    Tashkent University Information Technology, Fergana Bachelor Degree
+
+    Highly motivated and detail-oriented Frontend Developer with a strong foundation in HTML, CSS, JavaScript, and React.js. Skilled in building dynamic and responsive web applications, integrating APIs, and utilizing modern frontend libraries and frameworks. Experienced in GSAP animations, local storage, and RESTful APIs to enhance user experience.
+Currently developing MyCareer, a web platform for freelancers and companies, showcasing expertise in UI/UX design and interactive web development. Enthusiastic about data structures, algorithms, and cybersecurity, with a solid understanding of database management (SQL).
+A second-year student at Tatuff on a full scholarship, consistently excelling in academic performance. Recognized as a top-performing and highly curious learner, always eager to explore new technologies and enhance problem-solving skills. Passionate about continuous learning, innovation, and delivering high-quality, scalable web solutions.
+
