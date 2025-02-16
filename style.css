@@ -31,6 +31,10 @@ nav .container {
 .logo img {
   width: 100%;
 }
+.logo img:hover {
+  filter: drop-shadow(0 0 10px #fd6f00);
+  transform: scale(1.2);
+}
 .links {
   display: flex;
   align-items: center;
@@ -119,6 +123,9 @@ nav .container {
   object-fit: cover;
   mix-blend-mode: unset;
 }
+.heroImg img:hover {
+  filter: drop-shadow(0 0 10px gray);
+}
 .heroSocials {
   display: flex;
   align-items: center;
@@ -139,6 +146,29 @@ nav .container {
   background: #1f1c1b98;
   border-radius: 50%;
   transition: all 0.5s ease;
+  position: relative;
+}
+.socialName {
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  transform: scale(0.002);
+}
+.iconBox:hover .socialName {
+  top: -40px;
+  transform: scale(1);
+}
+.instagram {
+  color: #d53274;
+}
+.telegram {
+  color: #1687C0;
+}
+.github {
+  color: #7f7f7f;
+}
+.linkedin {
+  color: #2682DE;
 }
 .iconBox:hover {
   color: white;
@@ -181,6 +211,9 @@ nav .container {
   border: none;
   border-radius: 8px;
 }
+.heroBtns .hireMeBtn:hover {
+  background-color: #f86d0166;
+}
 .heroBtns .download {
   background-color: transparent;
   color: #959595;
@@ -190,6 +223,12 @@ nav .container {
   line-height: 24px;
   padding: 12px 40px;
   border-radius: 8px;
+  display: flex;
+  gap: 10px;
+}
+.heroBtns .download:hover {
+  background-color: #212121;
+  color: white;
 }
 .experienceBoxes {
   background-color: #ffffff10;
@@ -331,6 +370,9 @@ nav .container {
   border-radius: 20px;
   background-color: #1b1b1b;
 }
+.serviceBox:hover {
+  transform: scale(0.92) translateY(-20px);
+}
 .serviceBox .boxImg {
   width: 100%;
   display: flex;
@@ -410,6 +452,7 @@ nav .container {
 }
 .portfolioBox:hover {
   box-shadow: 0 0 10px 0px #fd6f00;
+  transform: scale(1.02);
 }
 .portfolioText {
   padding: 10px 20px;
@@ -499,6 +542,9 @@ nav .container {
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
+}
+.aboutImg img:hover {
+  filter: drop-shadow(0px 0px 10px #0cd8f3);
 }
 .aboutText {
   padding-top: 50px;
@@ -735,7 +781,7 @@ footer .heroSocials {
   }
 
   /* Styling contact */
-  footer{
+  footer {
     padding-top: 0;
   }
   .contact form {
@@ -758,8 +804,7 @@ footer .heroSocials {
 
   .myData {
     flex-wrap: wrap;
-  
+
     gap: 30px;
-    
   }
 } /* close media*/
