@@ -353,10 +353,11 @@ nav .container {
   content: "";
   width: 100%;
   height: 100%;
-  border-top: 3px solid #fd6f00;
-  border-top-right-radius: 50%;
-  border-top-left-radius: 50%;
-  animation: rotate 2s linear infinite;
+  border: 10px dotted #fd6f00;
+  /* border-top-right-radius: 50%;
+  border-top-left-radius: 50%; */
+  border-radius: 50%;
+  animation: rotate 5s linear infinite;
 }
 .skillBox img {
   width: 90%;
