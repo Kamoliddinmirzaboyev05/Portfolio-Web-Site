@@ -395,8 +395,7 @@ nav .container {
   transition: all 0.4s ease-in !important;
 }
 .serviceBox:hover {
-  transform: scale(0.92) translate(-15px) !important;  
-
+  transform: scale(0.92) translate(-15px) !important;
 }
 .serviceBox .boxImg {
   width: 100%;
@@ -431,7 +430,9 @@ nav .container {
 }
 
 /* Styling portfolio section */
-
+.projects .container {
+  padding: 80px 0;
+}
 .portfolioFilter {
   display: flex;
   align-items: center;
@@ -551,8 +552,8 @@ nav .container {
 
 /* Styling About section */
 
-.about {
-  padding: 80px 0;
+.about .container {
+  padding: 100px 0;
 }
 .aboutBlock {
   display: flex;
