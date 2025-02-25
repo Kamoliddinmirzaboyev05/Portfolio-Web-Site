@@ -34,7 +34,7 @@ a {
   padding-left: 5px;
   padding-right: 5px;
   margin: 0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 /* Styling header section */
 /* Styling nav section */
@@ -454,7 +454,7 @@ nav .container {
   background-color: #fd6f00;
   color: white;
 }
-.portfolioFilter button:first-child {
+.portfolioFilter .activeBtn{
   background-color: #fd6f00;
   color: white;
 }
@@ -534,8 +534,6 @@ nav .container {
   color: white;
 }
 .portfolioBtns button:hover .toright {
-  /* background-color: white; */
-  /* color: #fd6f00; */
   transform: rotate(0deg);
 }
 .toright {
@@ -679,11 +677,18 @@ footer .heroSocials {
   justify-content: center;
   gap: 10px;
 }
+.hidden {
+  display: none;
+  color: red;
+}
 
 @media (max-width: 480px) {
   nav .container {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .container{
+    overflow-y: hidden;
   }
   .up {
     width: 60px;
