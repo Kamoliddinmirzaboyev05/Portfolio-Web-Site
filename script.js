@@ -8,117 +8,117 @@ const featuredBtn = document.querySelector(".featuredBtn");
 const interactiveBtn = document.querySelector(".interactiveBtn");
 const apiBtn = document.querySelector(".apiBtn");
 const reactBtn = document.querySelector(".reactBtn");
+const portfolioBlock = document.querySelector(".portfolioBlock");
 
 const portfolioDB = [
   {
     id: 1,
+    img: "img/weather.jpg",
     type: "featured",
     title: "Weather Web Application",
     technology: "JavaScript",
     link: "https://weather-app-mkm.netlify.app/",
-    github: "https://weather-app-mkm.netlify.app/",
+    github: "https://github.com/Kamoliddinmirzaboyev05/Weather-App",
     functions: ["Fetch API", "Search City", "Local Storage"],
   },
   {
-    id: 1,
+    id: 2,
+    img: "img/ecommerse.jpg",
     type: "featured",
-    title: "Weather Web Application",
+    title: "eCommerse Multipage Market Site",
     technology: "JavaScript",
-    link: "https://weather-app-mkm.netlify.app/",
-    github: "https://weather-app-mkm.netlify.app/",
+    link: "https://ecommerse-mkm.netlify.app/",
+    github: "https://github.com/Kamoliddinmirzaboyev05/eCommerse-Big-JS-Project",
+    functions: ["Fetch API", "Multi Page", "Local Storage"],
+  },
+  {
+    id: 3,
+    img: "img/taqvim.jpg",
+    type: "featured",
+    title: "Taqvim Web Application",
+    technology: "JavaScript",
+    link: "https://taqvim-mkm.netlify.app/",
+    github: "https://github.com/Kamoliddinmirzaboyev05/Namoz-Vaqtlari-APP",
+    functions: ["Fetch API", "Daily Times", "Local Storage"],
+  },
+  {
+    id: 4,
+    img: "img/contact.jpg",
+    type: "featured",
+    title: "Contact Web Application",
+    technology: "JavaScript",
+    link: "https://contacts-mkm.netlify.app/",
+    github: "https://github.com/Kamoliddinmirzaboyev05/Weather-App",
     functions: ["Fetch API", "Search City", "Local Storage"],
   },
   {
-    id: 1,
+    id: 5,
+    img: "img/todolist.jpg",
     type: "featured",
-    title: "Weather Web Application",
+    title: "To Do List",
     technology: "JavaScript",
-    link: "https://weather-app-mkm.netlify.app/",
-    github: "https://weather-app-mkm.netlify.app/",
-    functions: ["Fetch API", "Search City", "Local Storage"],
+    link: "https://todolist-mkm.netlify.app/",
+    github: "https://github.com/Kamoliddinmirzaboyev05",
+    functions: ["Add new task", "Complate task", "Local Storage"],
   },
   {
-    id: 1,
+    id: 6,
+    img: "img/countries.jpg",
     type: "featured",
-    title: "Weather Web Application",
+    title: "Countries Data",
     technology: "JavaScript",
     link: "https://weather-app-mkm.netlify.app/",
-    github: "https://weather-app-mkm.netlify.app/",
-    functions: ["Fetch API", "Search City", "Local Storage"],
-  },
-  {
-    id: 1,
-    type: "featured",
-    title: "Weather Web Application",
-    technology: "JavaScript",
-    link: "https://weather-app-mkm.netlify.app/",
-    github: "https://weather-app-mkm.netlify.app/",
-    functions: ["Fetch API", "Search City", "Local Storage"],
-  },
-  {
-    id: 1,
-    type: "featured",
-    title: "Weather Web Application",
-    technology: "JavaScript",
-    link: "https://weather-app-mkm.netlify.app/",
-    github: "https://weather-app-mkm.netlify.app/",
-    functions: ["Fetch API", "Search City", "Local Storage"],
-  },
-  {
-    id: 1,
-    type: "featured",
-    title: "Weather Web Application",
-    technology: "JavaScript",
-    link: "https://weather-app-mkm.netlify.app/",
-    github: "https://weather-app-mkm.netlify.app/",
-    functions: ["Fetch API", "Search City", "Local Storage"],
-  },
-  {
-    id: 1,
-    type: "featured",
-    title: "Weather Web Application",
-    technology: "JavaScript",
-    link: "https://weather-app-mkm.netlify.app/",
-    github: "https://weather-app-mkm.netlify.app/",
-    functions: ["Fetch API", "Search City", "Local Storage"],
-  },
-  {
-    id: 1,
-    type: "featured",
-    title: "Weather Web Application",
-    technology: "JavaScript",
-    link: "https://weather-app-mkm.netlify.app/",
-    github: "https://weather-app-mkm.netlify.app/",
-    functions: ["Fetch API", "Search City", "Local Storage"],
-  },
-  {
-    id: 1,
-    type: "featured",
-    title: "Weather Web Application",
-    technology: "JavaScript",
-    link: "https://weather-app-mkm.netlify.app/",
-    github: "https://weather-app-mkm.netlify.app/",
-    functions: ["Fetch API", "Search City", "Local Storage"],
-  },
-  {
-    id: 1,
-    type: "featured",
-    title: "Weather Web Application",
-    technology: "JavaScript",
-    link: "https://weather-app-mkm.netlify.app/",
-    github: "https://weather-app-mkm.netlify.app/",
-    functions: ["Fetch API", "Search City", "Local Storage"],
-  },
-  {
-    id: 1,
-    type: "featured",
-    title: "Weather Web Application",
-    technology: "JavaScript",
-    link: "https://weather-app-mkm.netlify.app/",
-    github: "https://weather-app-mkm.netlify.app/",
+    github: "https://github.com/Kamoliddinmirzaboyev05/Weather-App",
     functions: ["Fetch API", "Search City", "Local Storage"],
   },
 ];
+
+portfolioDB.forEach((item) => {
+  portfolioBlock.innerHTML += `
+     <div
+                class="portfolioBox"
+               >
+                <div class="portfolioImg">
+                  <img src=${item.img} alt="" />
+                </div>
+                <div class="portfolioText">
+                  <h3>${item.title}</h3>
+                  <h4>Technology</h4>
+                  <ul>
+                    <li>${item.technology}</li>
+                  </ul>
+                  <h4>Functions</h4>
+                  <ul>
+                    <li>${item.functions[0]}</li>
+                    <li>${item.functions[1]}</li>
+                    <li>${item.functions[2]}</li>
+                  </ul>
+                  <div class="portfolioBtns">
+                    <a
+                      target="_blank"
+                      href=${item.link}
+                      ><button class="gotoSite">
+                        Go To Site
+                        <div class="toright">
+                          <i class="fas fa-arrow-right"></i>
+                        </div>
+                      </button>
+                    </a>
+                    <a
+                      target="_blank"
+                      href=${item.github}>
+                      <button class="gotoCode">
+                        Go To Code
+                        <div class="toright">
+                          <i class="fas fa-arrow-right"></i>
+                        </div>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+  `;
+});
 
 staticBtn.addEventListener("click", () => {
   // Btn classes
