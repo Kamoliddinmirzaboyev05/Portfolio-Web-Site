@@ -9,6 +9,9 @@ const interactiveBtn = document.querySelector(".interactiveBtn");
 const apiBtn = document.querySelector(".apiBtn");
 const reactBtn = document.querySelector(".reactBtn");
 const portfolioBlock = document.querySelector(".portfolioBlock");
+const mobileLinksBack = document.querySelector(".mobileLinksBack");
+const bar = document.querySelector(".bar");
+const link = document.querySelectorAll(".link");
 
 const portfolioDB = [
   {
@@ -73,6 +76,16 @@ const portfolioDB = [
   },
 ];
 
+link.forEach((item)=>{
+  item.addEventListener("click", ()=>{
+  mobileLinksBack.style.left = "-400px"
+
+  })
+})
+
+bar.addEventListener("click", ()=>{
+  mobileLinksBack.style.left = "0px"
+})
 portfolioDB.forEach((item) => {
   portfolioBlock.innerHTML += `
      <div

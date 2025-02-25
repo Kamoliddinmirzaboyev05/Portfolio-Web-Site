@@ -46,7 +46,7 @@ nav {
   position: fixed;
   width: 100%;
   backdrop-filter: blur(25px);
-  z-index: 999999999999;
+  z-index: 9999;
 }
 nav .container {
   display: flex;
@@ -692,7 +692,40 @@ footer .heroSocials {
   display: none;
   color: red;
 }
-
+.mobileLinksBack {
+  position: fixed;
+  left: -400px;
+  z-index: 9999999999999999;
+  width: 80%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.407);
+  backdrop-filter: blur(25px);
+}
+.mobileModalLogo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.mobileModalLogo img {
+  width: 120px;
+  height: 120px;
+}
+.mobileLinksList{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  list-style: none;
+}
+.mobileLinksList a{
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+}
+.mobileLinksList a:active{
+  color: #F1B10F;
+}
 @media (max-width: 480px) {
   nav .container {
     padding-left: 20px;
@@ -701,7 +734,6 @@ footer .heroSocials {
   .container {
     overflow-y: hidden;
   }
-
   .bar {
     display: block;
   }
@@ -714,7 +746,9 @@ footer .heroSocials {
     font-weight: 700;
     text-decoration: none;
   }
-
+  .logo {
+    margin-left: 50px;
+  }
   /* Styling hero */
   .hero .container {
     display: flex;
@@ -722,6 +756,7 @@ footer .heroSocials {
     flex-wrap: wrap;
     align-items: start;
     padding: 50px 20px;
+    padding-top: 100px;
   }
   .heroText {
     text-align: center;
